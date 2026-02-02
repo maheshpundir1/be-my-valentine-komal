@@ -532,7 +532,7 @@
   
       FLAGS: {
         // ✅ Master testing flag (fast-forward everything)
-        TEST_MODE: true,
+        TEST_MODE: false,
   
         // how quickly days advance in test mode (seconds)
         TEST_DAY_GAP_SEC: 120,
@@ -624,31 +624,31 @@ valentine: {
       days: [
       { key:"rose", title:"Rose Day", date:{month:2,day:7},
   message:"तुम्हारा प्यार गुलाब नहीं है… वो उस पल जैसा है जब दिल तेज़ धड़कता है और होंठ चुप हो जाते हैं। खतरनाक, गहरा, सिर्फ़ मेरा। Your love isn’t a rose… it’s the moment when hearts race and words surrender — intense, intoxicating, mine. 🌹",
-  tomorrowTeaser:"कल… मैं तुम्हें याद दिलाऊँगा कि तुम सिर्फ़ चाहत नहीं, मेरा हक़ हो। Tomorrow… I’ll remind you that you’re not just desired — you’re mine." },
+  tomorrowTeaser:"कल… मैं तुम्हें याद दिलाऊँगा कि तुम सिर्फ़ चाहत नहीं, मेरा हक़ हो। I’ll remind you that you’re not just desired — you’re mine." },
 
 { key:"propose", title:"Propose Day", date:{month:2,day:8},
   message:"मैंने तुम्हें माँगा नहीं… मैंने तुम्हें चुन लिया। हर सुबह, हर रात, हर साँस के साथ। I didn’t ask for you — I claimed you. In every morning, every night, every breath. 💍",
-  tomorrowTeaser:"कल मिठास होगी… और वो देर तक रहेगी। Tomorrow will be sweet… and it will linger." },
+  tomorrowTeaser:"कल मिठास होगी… और वो देर तक रहेगी। will be sweet… and it will linger." },
 
 { key:"chocolate", title:"Chocolate Day", date:{month:2,day:9},
   message:"कुछ मिठास जीभ पर घुलती है… तुम रूह तक उतर जाती हो। मेरी सोच, मेरी त्वचा, मेरी आदत बन चुकी हो। Some sweetness melts on the tongue. You melt into my soul — my thoughts, my skin, my habit. 🍫",
-  tomorrowTeaser:"कल मैं तुम्हें वो एहसास दूँगा जिसे तुम थामना चाहोगी। Tomorrow I’ll give you something you’ll want to hold close." },
+  tomorrowTeaser:"कल मैं तुम्हें वो एहसास दूँगा जिसे तुम थामना चाहोगी। I’ll give you something you’ll want to hold close." },
 
 { key:"teddy", title:"Teddy Day", date:{month:2,day:10},
   message:"जब मेरी बाहें तुम्हारे आसपास नहीं होतीं, तब भी मेरा एहसास तुम्हें घेरे रखे — कसकर, गर्म, अधिकार से भरा। When my arms aren’t around you, let my presence hold you — tight, warm, possessive. 🧸",
-  tomorrowTeaser:"कल वादा होगा… ऐसा जो सिर्फ़ कहा नहीं, निभाया जाता है। Tomorrow comes a promise — one that’s felt, not spoken." },
+  tomorrowTeaser:"कल वादा होगा… ऐसा जो सिर्फ़ कहा नहीं, निभाया जाता है। comes a promise — one that’s felt, not spoken." },
 
 { key:"promise", title:"Promise Day", date:{month:2,day:11},
   message:"मैं वादा करता हूँ — तुम्हारी कमज़ोरी मेरी ज़िम्मेदारी है, और तुम्हारी चाहत मेरा फ़र्ज़। I promise — your vulnerability is my responsibility, and your desire is my duty. 🤞",
-  tomorrowTeaser:"कल दूरी नाम की चीज़ खत्म हो जाएगी। Tomorrow, distance won’t exist." },
+  tomorrowTeaser:"कल दूरी नाम की चीज़ खत्म हो जाएगी। distance won’t exist." },
 
 { key:"hug", title:"Hug Day", date:{month:2,day:12},
   message:"मेरी बाहों में आकर दुनिया चुप हो जाती है — वहाँ सिर्फ़ तुम होती हो, और मेरा दावा। In my arms, the world goes silent — there’s only you, and my claim on you. 🤗",
-  tomorrowTeaser:"कल खुद को रोकने की कोशिश मत करना। Tomorrow… don’t try to resist me." },
+  tomorrowTeaser:"कल खुद को रोकने की कोशिश मत करना। don’t try to resist me." },
 
 { key:"kiss", title:"Kiss Day", date:{month:2,day:13},
   message:"एक किस सिर्फ़ स्पर्श नहीं — वो मुहर है, जो कहती है: तुम मेरी हो। A kiss isn’t just a touch — it’s a seal that says: you belong with me. 💋",
-  tomorrowTeaser:"कल आख़िरी दिन नहीं… शुरुआत है। Tomorrow isn’t the end — it’s the beginning." },
+  tomorrowTeaser:"कल आख़िरी दिन नहीं… शुरुआत है। isn’t the end — it’s the beginning." },
 
 { key:"valentine", title:"Valentine’s Day", date:{month:2,day:14},
   message:"आज कोई जश्न नहीं — आज वो बंधन है जो हमें बाँधता है, खींचता है, और कभी ढीला नहीं पड़ता। Today isn’t a celebration — it’s the bond that pulls us together, holds us tight, and never loosens. ❤️",
@@ -674,13 +674,13 @@ valentine: {
       { q:"I got you something you can wear every day to remember my promise. What is it? (मैंने तुम्हारे लिए कुछ ऐसा लिया है, जो पहनते ही मेरी वादा याद आएगा। क्या है वो?)", a:"Tshirt", amount: 500 },
 
       { q:"I stand tall on a single spine, Elegance balanced on a thin line. I'm worn, not walked, to steal the night… What shape am I? (मैं एक अकेली एड़ी पर ऊँची खड़ी हूँ, एक पतली रेखा पर मेरी शान संतुलित है। मुझे पहना जाता है, चलाया नहीं… रात को अपनी मोहकता से चुराने के लिए।)", a:"Heel", amount: 100 }, 
-      { q:"Guess what little thing I’ve brought to make our hugs even more unforgettable today? </br> आज हमारी झप्पियों को और भी खास बनाने के लिए मैंने क्या लाया है, सोचो?", a:"Perfume", amount: 500 },
+      { q:"Guess what little thing I’ve brought to make our hugs even more unforgettable today?  आज हमारी झप्पियों को और भी खास बनाने के लिए मैंने क्या लाया है, सोचो?", a:"Perfume", amount: 500 },
 
       { q:"I’ve chosen a deep, velvety spell to turn your whispers into something unforgettable… what color am I? (मैंने एक गहरी, मखमली जादू चुना है, जो तुम्हारी फुसफुसाहट को अविस्मरणीय बना देगा… मैं कौन सा रंग हूँ?) ", a:"Red", amount: 100 },
-      { q:"Guess what little magic I’ve picked to make your kisses even sweeter today? </br> आज तुम्हारे होंठों को और भी प्यारा बनाने के लिए मैं क्या लाया हूँ, सोचो?", a:"Lipstick", amount: 500 },
+      { q:"Guess what little magic I’ve picked to make your kisses even sweeter today? आज तुम्हारे होंठों को और भी प्यारा बनाने के लिए मैं क्या लाया हूँ, सोचो?", a:"Lipstick", amount: 500 },
 
       { q:"I’m the metal that kings and lovers both adore, I never tarnish, and I hold promises tight. What am I? (मैं वह धातु हूँ जिसे राजा और प्रेमी दोनों पसंद करते हैं, मैं कभी काला नहीं पड़ता, और मैं वादों को मजबूती से बांधता हूँ। मैं क्या हूँ?)", a:"Gold", amount: 400 },
-      { q:"Can you guess the little treasure I’ve picked out for you today… perhaps a symbol of forever? </br> आज के लिए तुम्हारे लिए एक छोटा सा खज़ाना लाया हूँ… शायद हमेशा के लिए एक निशानी?", a:"Ring", amount: 500 },
+      { q:"Can you guess the little treasure I’ve picked out for you today… perhaps a symbol of forever? आज के लिए तुम्हारे लिए एक छोटा सा खज़ाना लाया हूँ… शायद हमेशा के लिए एक निशानी?", a:"Ring", amount: 500 },
       ]
     };
   
